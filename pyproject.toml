@@ -1,0 +1,40 @@
+
+---
+
+## 4️⃣ `pyproject.toml`
+
+```toml
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devkit-cli"
+version = "0.1.0"
+description = "A modern CLI toolkit for developers: organize files, scaffold projects, inspect git repos."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Oussama Boudinar", email = "lionweb01@gmail.com" }]
+maintainers = [{ name = "Oussama Boudinar", email = "lionweb01@gmail.com" }]
+keywords = ["cli", "developer-tools", "productivity", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+devkit = "devkit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/dzopensource-lab/devkit-cli"
+Repository = "https://github.com/dzopensource-lab/devkit-cli"
+Issues = "https://github.com/dzopensource-lab/devkit-cli/issues"
+
+[tool.setuptools.packages.find]
+include = ["devkit*"]

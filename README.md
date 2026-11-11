@@ -1,5 +1,5 @@
 # 🛠️ DevKit CLI
-
+![Tests](https://github.com/dzopensource-lab/devkit-cli/actions/workflows/test.yml/badge.svg)
 **A modern CLI toolkit for developers — organize files, scaffold projects, inspect git repositories.**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)

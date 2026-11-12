@@ -298,19 +298,19 @@ pytest -v
     ☑
 
     GitHub Actions CI
-    □
+    ☑
 
     clean command — Remove node_modules, __pycache__, .venv
-    □
+    ☑
 
     organize --recursive — Support subfolders
-    □
+    ☑
 
     Custom categories from devkit.toml
-    □
+    ☑
 
     More scaffold templates (react, fastapi, vue)
-    □
+    ☑
 
     Publish to PyPI
 
